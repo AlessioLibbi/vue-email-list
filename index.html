@@ -13,7 +13,7 @@
 <body>
     <div id="app">
         <button @click= "showList">Genera</button>
-        <button @click="showList">Clear</button>
+        <button @click="clearList">Clear</button>
         <ul v-if="show">
             <li v-for="mail in response">{{ mail }}</li>
         </ul>
